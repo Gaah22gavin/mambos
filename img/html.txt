@@ -1,0 +1,334 @@
+    <section class="our-menu">
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'beverages')" id="defaultOpen">
+                <img src="./img/burger.png" alt="">
+                beverages</button>
+            <button class="tablinks" onclick="openCity(event, 'coffee')">
+                <img src="./img/coffe.png" alt="">
+                coffee</button>
+            <button class="tablinks" onclick="openCity(event, 'burgers')">
+                <img src="./img/burger.png" alt="">
+                burgers
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'shwarma')"><img src="./img/burger.png" alt="">
+                shwarma
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'pizzas')">
+                <img src="./img/burger.png" alt=""> 
+                pizzas
+            </button>
+
+        </div>
+
+        <div id="beverages" class="tabcontent">
+            <ul>
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <ul class="list">
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <button class="read" id="read">read more</button>
+        </div>
+        <div id="coffee" class="tabcontent">
+            <ul>
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <ul class="list">
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <button class="read" id="read">read more</button>
+        </div>
+        <div id="burgers" class="tabcontent">
+            <ul>
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <ul class="list">
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <button class="read" id="read">read more</button>
+
+
+
+        </div>
+        <div id="shwarma" class="tabcontent">
+            <ul>
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <ul class="list">
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+
+            <button class="read" id="read">read more</button>
+
+
+
+        </div>
+        <div id="pizzas" class="tabcontent">
+            <ul>
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+            <ul class="list">
+                <li>
+                    <h3>minute maid</h3>
+                    <hr>
+                    <span>USD$1.25</span>
+                </li>
+                <li>
+                    <h3>330ml drinks</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>500ml drinks</h3>
+                    <hr>
+                    <span>USD$1.75</span>
+                </li>
+                <li>
+                    <h3>pepsi pet</h3>
+                    <hr>
+                    <span>USD$1.00</span>
+                </li>
+                <li>
+                    <h3>cascade pet</h3>
+                    <hr>
+                    <span>USD$0.75</span>
+                </li>
+
+            </ul>
+            <button class="read" id="read">read more</button>
+        </div>
+
+    </section>
