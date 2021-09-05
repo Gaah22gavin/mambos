@@ -1014,6 +1014,9 @@ footer .footer-links hr {
   header #menubar {
     display: none;
   }
+  header .menu-toggle {
+    display: none;
+  }
 
   .banner {
     height: 100vh;
@@ -1378,13 +1381,13 @@ footer .footer-links hr {
     position: absolute;
     top: 56%;
     left: 0;
-    width: 5%;
+    width: 50px;
   }
   .Acoustic .left {
     position: absolute;
     top: 56%;
     right: 0;
-    width: 5%;
+    width: 40px;
   }
   .Acoustic #one {
     position: absolute;
@@ -1395,6 +1398,8 @@ footer .footer-links hr {
     position: absolute;
     top: 34%;
     left: 0;
+    box-shadow: 0 0 5px 5px white;
+    background: linear-gradient(to right, white, white);
   }
 
   footer {
