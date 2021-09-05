@@ -459,7 +459,7 @@ header{
 
 // special
 .special{
-    margin: 20px 0px;
+    margin: 20px 5px;
     overflow: hidden;
     .special-box{
         background-color: orange;
@@ -483,7 +483,7 @@ header{
 
 
             h3{
-                font-size: 14px;
+                font-size: 13px;
                 font-family: $regular;
                 line-height: 1.4;
                 margin: 5px 0px;
@@ -502,6 +502,34 @@ header{
                 width: 80%;
                 margin: 10px 0px;
             }
+
+            &#crud{
+                background-color: #e91818;
+                h3{
+                    color: orange;
+                }
+            }
+        
+            &#crud2{
+                background-color: black;
+                h3{
+                    color: orange;
+                }
+            }
+        
+            &#crud4{
+                background-color: black;
+                h3{
+                    color: orange;
+                }
+            }
+        
+            &#crud5{
+                background-color: #e91818;
+                h3{
+                    color: orange;
+                }
+            }
         }
 
  
@@ -515,19 +543,7 @@ header{
     
     }
 
-    #crud{
-        background-color: #e91818;
-        h3{
-            color: orange;
-        }
-    }
 
-    #crud2{
-        background-color: black;
-        h3{
-            color: orange;
-        }
-    }
 
 
     
@@ -539,12 +555,9 @@ header{
     //     overflow: hidden;
     // }
 
-    // .slick-slide {
-    //   transition: all ease-in-out .3s;
-    //   opacity: 1;
-    //   width: unset !important;
-    //   margin: 0px 20px;
-    // }
+    .slick-slide {
+      margin: 0px 10px;
+    }
    
     // .slick-active {
     //   opacity:1;
@@ -1022,6 +1035,9 @@ footer{
     }
     }
     .special{
+        margin: 10px 20px;
+        padding: 40px 0px;
+        position: relative;
         .special-box{
             .special-text{
                 h2{
@@ -1048,8 +1064,39 @@ footer{
             opacity: 1;
         }
 
-      
-      
+        .slick-slide {
+            margin: 0px 10px;
+        }
+        
+        
+    #crud{
+        background-color: #e91818;
+        h3{
+            color: orange;
+        }
+    }
+
+    #crud2{
+        background-color: black;
+        h3{
+            color: orange;
+        }
+    }
+    
+    #crud4{
+        background-color: black;
+        h3{
+            color: orange;
+        }
+    }
+
+    #crud5{
+        background-color: #e91818;
+        h3{
+            color: orange;
+        }
+    }
+
     }
     .Our-Customers{
         padding: 40px 0px;

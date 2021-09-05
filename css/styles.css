@@ -381,7 +381,7 @@ header .menu-toggle.active .three {
 }
 
 .special {
-  margin: 20px 0px;
+  margin: 20px 5px;
   overflow: hidden;
 }
 .special .special-box {
@@ -405,7 +405,7 @@ header .menu-toggle.active .three {
   margin: 0px 0px 20px;
 }
 .special .special-box .special-text h3 {
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Montserrat-regular";
   line-height: 1.4;
   margin: 5px 0px;
@@ -423,23 +423,38 @@ header .menu-toggle.active .three {
   width: 80%;
   margin: 10px 0px;
 }
+.special .special-box .special-text#crud {
+  background-color: #e91818;
+}
+.special .special-box .special-text#crud h3 {
+  color: orange;
+}
+.special .special-box .special-text#crud2 {
+  background-color: black;
+}
+.special .special-box .special-text#crud2 h3 {
+  color: orange;
+}
+.special .special-box .special-text#crud4 {
+  background-color: black;
+}
+.special .special-box .special-text#crud4 h3 {
+  color: orange;
+}
+.special .special-box .special-text#crud5 {
+  background-color: #e91818;
+}
+.special .special-box .special-text#crud5 h3 {
+  color: orange;
+}
 .special .special-box .img {
   width: 50%;
 }
 .special .special-box .img img {
   width: 100%;
 }
-.special #crud {
-  background-color: #e91818;
-}
-.special #crud h3 {
-  color: orange;
-}
-.special #crud2 {
-  background-color: black;
-}
-.special #crud2 h3 {
-  color: orange;
+.special .slick-slide {
+  margin: 0px 10px;
 }
 .special .right {
   position: absolute;
@@ -831,6 +846,11 @@ footer .footer-links hr {
     display: none;
   }
 
+  .special {
+    margin: 10px 20px;
+    padding: 40px 0px;
+    position: relative;
+  }
   .special .special-box .special-text h2 {
     font-size: 20px;
   }
@@ -845,6 +865,33 @@ footer .footer-links hr {
   }
   .special .slick-active {
     opacity: 1;
+  }
+  .special .slick-slide {
+    margin: 0px 10px;
+  }
+  .special #crud {
+    background-color: #e91818;
+  }
+  .special #crud h3 {
+    color: orange;
+  }
+  .special #crud2 {
+    background-color: black;
+  }
+  .special #crud2 h3 {
+    color: orange;
+  }
+  .special #crud4 {
+    background-color: black;
+  }
+  .special #crud4 h3 {
+    color: orange;
+  }
+  .special #crud5 {
+    background-color: #e91818;
+  }
+  .special #crud5 h3 {
+    color: orange;
   }
 
   .Our-Customers {

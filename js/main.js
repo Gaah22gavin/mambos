@@ -26,6 +26,8 @@ $(document).on('ready', function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay:true,
+    autoplaySpeed: 1000,
+    speed:2000,
     nextArrow:"#nxt",
     prevArrow:"#prv",
     fade: true,
@@ -79,7 +81,7 @@ $(document).on('ready', function(){
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay:false,
+    autoplay:true,
     nextArrow:".right",
     prevArrow:".left",
     
@@ -90,14 +92,19 @@ $(document).on('ready', function(){
         settings:{
           slidesToShow:1,
           slidesToScroll:1,
+          nextArrow:false,
+          prevArrow:false,
+          autoplaySpeed: 1000,
+          speed:2000,
         }        
       },
 
       {
         breakpoint:1024,
         settings:{
-          slidesToShow:1,
+          slidesToShow:2,
           slidesToScroll:1,
+          dots: true,
         }
       }
   ]
@@ -135,7 +142,9 @@ $(document).on('ready', function(){
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay:false,
+    autoplay:true,
+    autoplaySpeed: 1000,
+    speed:2000,
     nextArrow:"#right-two",
     prevArrow:"#left-two",
     
