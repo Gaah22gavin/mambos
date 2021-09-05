@@ -1243,6 +1243,9 @@ footer{
         #menubar{
             display: none;
         }
+        .menu-toggle{
+            display: none;
+        }
     }
     .banner{
         height: 100vh;
@@ -1668,14 +1671,14 @@ footer{
             position: absolute;
             top:56%;
             left: 0;
-            width: 5%;
+            width: 50px;
         }
     
         .left{
             position: absolute;
             top: 56%;
             right: 0;
-            width: 5%;
+            width: 40px;
         }
     
         #one{
@@ -1688,6 +1691,9 @@ footer{
             position: absolute;
             top: 34%;
             left: 0;
+            box-shadow: 0 0 5px 5px rgb(255 255 255);
+            background:linear-gradient(to right, rgb(255 255 255), rgb(255 255 255));
+
         }
     }
     footer{
