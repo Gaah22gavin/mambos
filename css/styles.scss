@@ -105,65 +105,6 @@ header{
         }
     }
 
-    #menubar{
-        width: 20%;
-        height: 45px;
-        position: relative;
-        transform: rotate(0deg);
-        transition: .5s ease-in-out;
-        cursor: pointer;
-        span {
-            display: block;
-            position: absolute;
-            height: 5px;
-            width: 80%;
-            background: #000000;
-            border-radius: 10px;
-            opacity: 1;
-            left: 0;
-            transform: rotate(0deg);
-            transition: .25s ease-in-out;
-            &:nth-child(1) {
-                top: 3px;
-                transform-origin: left center;
-            }
-              
-            &:nth-child(2) {
-                top: 18px;
-                transform-origin: left center;
-            }
-              
-            &:nth-child(3) {
-                top: 33px;
-                transform-origin: left center;
-            }
-        }
-    
-        &.barOpen{
-            span{
-                background-color: #000000;
-                &:nth-child(1){
-                    transform: rotate(45deg);
-                    top: 4px;
-                    left: 8px;
-                    width: 70%;
-                }
-                &:nth-child(2){
-                    width: 0%;
-                    opacity: 0;
-                }
-                &:nth-child(3){
-                    transform: rotate(-45deg);
-                    top: 35px;
-                    left: 8px;
-                    width: 70%;
-                }
-            }
-        
-        }
-        
-    }
-
     &.open{
         height: 40vh;
         .box-one{
@@ -215,9 +156,7 @@ header{
     
 }
 // end here
-
 // ================================
-
 //banner
 .banner{
     height: 100vh;
@@ -763,6 +702,16 @@ header{
         }
     }
 
+    .right{
+        margin: 15px 10px;
+    }
+
+    .left{
+        margin:15px 10px;
+    }
+
+
+
     .slider {
         width: 50%;
         margin: 100px auto;
@@ -874,6 +823,7 @@ footer{
 
 @media(min-width:768px){
     header{
+        padding: 0px 20px;
         img{
             width: 27%;
         }
@@ -890,29 +840,8 @@ footer{
         }
 
         
-        #menubar{
-            width: 12%;
-
-            &.barOpen{
-                span{
-                    background-color: #e91818;
-                    &:nth-child(1){
-                        transform: rotate(45deg);
-                        top: -8px;
-                        height: 7px;
-                    }
-                    &:nth-child(2){
-                        width: 0%;
-                        opacity: 0;
-                    }
-                    &:nth-child(3){
-                        transform: rotate(-45deg);
-                        top: 35px;
-                        height: 7px;
-                    }
-                }
-            }
-        
+        .menu-toggle{
+            width: 8%;
         }
 
         &.open{
@@ -1214,6 +1143,15 @@ footer{
             }
         }
 
+        .right{
+            width: 7%;
+            margin: 15px 10px;
+        }
+    
+        .left{
+            width: 7%;
+            margin:15px 10px;
+        }
 
     }
     footer{
@@ -1483,6 +1421,10 @@ footer{
             bottom:5%;
         }
     }
+
+ // ===============================
+
+// ===============================
     .special{
         position: relative;
         margin: 0;

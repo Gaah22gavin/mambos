@@ -84,57 +84,6 @@ header .box-one ul li a {
   text-decoration: none;
   text-transform: capitalize;
 }
-header #menubar {
-  width: 20%;
-  height: 45px;
-  position: relative;
-  transform: rotate(0deg);
-  transition: 0.5s ease-in-out;
-  cursor: pointer;
-}
-header #menubar span {
-  display: block;
-  position: absolute;
-  height: 5px;
-  width: 80%;
-  background: #000000;
-  border-radius: 10px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: 0.25s ease-in-out;
-}
-header #menubar span:nth-child(1) {
-  top: 3px;
-  transform-origin: left center;
-}
-header #menubar span:nth-child(2) {
-  top: 18px;
-  transform-origin: left center;
-}
-header #menubar span:nth-child(3) {
-  top: 33px;
-  transform-origin: left center;
-}
-header #menubar.barOpen span {
-  background-color: #000000;
-}
-header #menubar.barOpen span:nth-child(1) {
-  transform: rotate(45deg);
-  top: 4px;
-  left: 8px;
-  width: 70%;
-}
-header #menubar.barOpen span:nth-child(2) {
-  width: 0%;
-  opacity: 0;
-}
-header #menubar.barOpen span:nth-child(3) {
-  transform: rotate(-45deg);
-  top: 35px;
-  left: 8px;
-  width: 70%;
-}
 header.open {
   height: 40vh;
 }
@@ -627,6 +576,12 @@ header .menu-toggle.active .three {
   bottom: 10%;
   left: 12%;
 }
+.Acoustic .right {
+  margin: 15px 10px;
+}
+.Acoustic .left {
+  margin: 15px 10px;
+}
 .Acoustic .slider {
   width: 50%;
   margin: 100px auto;
@@ -709,6 +664,9 @@ footer .footer-links hr {
 }
 
 @media (min-width: 768px) {
+  header {
+    padding: 0px 20px;
+  }
   header img {
     width: 27%;
   }
@@ -718,25 +676,8 @@ footer .footer-links hr {
   header .box-one ul li a {
     font-size: 22px;
   }
-  header #menubar {
-    width: 12%;
-  }
-  header #menubar.barOpen span {
-    background-color: #e91818;
-  }
-  header #menubar.barOpen span:nth-child(1) {
-    transform: rotate(45deg);
-    top: -8px;
-    height: 7px;
-  }
-  header #menubar.barOpen span:nth-child(2) {
-    width: 0%;
-    opacity: 0;
-  }
-  header #menubar.barOpen span:nth-child(3) {
-    transform: rotate(-45deg);
-    top: 35px;
-    height: 7px;
+  header .menu-toggle {
+    width: 8%;
   }
   header.open {
     height: 25vh;
@@ -995,6 +936,14 @@ footer .footer-links hr {
   .Acoustic .box h3 {
     font-size: 45px;
     left: 20%;
+  }
+  .Acoustic .right {
+    width: 7%;
+    margin: 15px 10px;
+  }
+  .Acoustic .left {
+    width: 7%;
+    margin: 15px 10px;
   }
 
   footer {

@@ -28,8 +28,8 @@ $(document).on('ready', function(){
     autoplay:true,
     autoplaySpeed: 1000,
     speed:2000,
-    nextArrow:"#nxt",
-    prevArrow:"#prv",
+    nextArrow:"#nxt-arrow",
+    prevArrow:"#prv-arrow",
     fade: true,
   });
 
@@ -266,5 +266,6 @@ var toggledMenu = menuToggle.addEventListener("click", function(){
       activeElements[activated].classList.toggle("active");
   }
 })
+
 
 
