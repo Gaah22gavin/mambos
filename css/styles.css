@@ -1100,7 +1100,7 @@ footer .footer-links hr {
     width: 80%;
   }
   .banner .box .banner-content {
-    padding: 0px -1px;
+    padding: 0px 30px;
   }
   .banner .box .banner-content h1 {
     font-size: 40px;
@@ -1134,7 +1134,8 @@ footer .footer-links hr {
     margin: 40px 0px;
   }
   .about .about-heading {
-    padding: 30px 0px;
+    padding: 30px 50px;
+    box-sizing: border-box;
     background: url("../img/Mambo's.png");
     background-position: center;
     background-size: contain;
@@ -1369,24 +1370,49 @@ footer .footer-links hr {
     justify-content: space-around;
   }
   .Craftsmanship .craft img {
-    width: 100%;
-    transition: all ease-in-out;
-  }
-  .Craftsmanship .craft img:hover {
-    width: 100%;
+    width: 95%;
+    cursor: pointer;
   }
   .Craftsmanship .craft .three {
     margin: 150px 0px 0px;
     width: 23%;
   }
+  .Craftsmanship .craft .three img {
+    transition: transform 0.8s ease-in-out;
+    width: 95%;
+  }
+  .Craftsmanship .craft .three img:hover {
+    transform: rotate(360deg);
+  }
   .Craftsmanship .craft .one {
     width: 23%;
+  }
+  .Craftsmanship .craft .one img {
+    transition: transform 0.8s ease-in-out;
+    width: 95%;
+  }
+  .Craftsmanship .craft .one img:hover {
+    transform: rotate(360deg);
   }
   .Craftsmanship .craft .two {
     width: 23%;
   }
+  .Craftsmanship .craft .two img {
+    transition: transform 0.8s ease-in-out;
+    width: 95%;
+  }
+  .Craftsmanship .craft .two img:hover {
+    transform: rotate(360deg);
+  }
   .Craftsmanship .craft .four {
     width: 23%;
+  }
+  .Craftsmanship .craft .four img {
+    transition: transform 0.8s ease-in-out;
+    width: 95%;
+  }
+  .Craftsmanship .craft .four img:hover {
+    transform: rotate(360deg);
   }
   .Craftsmanship .craft .top-right {
     position: absolute;
@@ -1455,14 +1481,14 @@ footer .footer-links hr {
   .Acoustic .right {
     position: absolute;
     top: 56%;
-    left: 0;
-    width: 50px;
+    left: 1%;
+    width: 3%;
   }
   .Acoustic .left {
     position: absolute;
     top: 56%;
-    right: 0;
-    width: 40px;
+    right: 1%;
+    width: 3%;
   }
   .Acoustic #one {
     position: absolute;

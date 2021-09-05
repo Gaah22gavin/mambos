@@ -1332,7 +1332,7 @@ footer{
             }
 
             .banner-content{
-                padding: 0px -1px;
+                padding: 0px 30px;
                 h1{
                     font-size: 40px;
                     margin: 15px 0px;
@@ -1370,7 +1370,8 @@ footer{
         align-items: center;
         margin: 40px 0px;
         .about-heading{
-            padding: 30px 0px;
+            padding: 30px 50px;
+            box-sizing: border-box;
             background: url('../img/Mambo\'s.png');
             background-position: center;
             background-size: contain;
@@ -1408,8 +1409,6 @@ footer{
                 &:hover{
                     background-color: rgb(230, 229, 229);
                 }
-
-
             }
 
             #move{
@@ -1646,28 +1645,53 @@ footer{
             margin: 20px 20px;
             justify-content: space-around;
             img{
-                width: 100%;
-                transition: all ease-in-out;
-                &:hover{
-                    width: 100%;
-                }
+                width: 95%;
+                cursor: pointer;
             }
 
             .three{
                 margin: 150px 0px 0px;
                 width: 23%;
+                img{
+                    transition:transform .8s ease-in-out;
+                    width: 95%;
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+                }
             }
 
             .one{
                 width: 23%;
+                img{
+                    transition:transform .8s ease-in-out;
+                    width: 95%;
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+                }
             }
 
             .two{
                 width: 23%;
+                img{
+                    transition:transform .8s ease-in-out;
+                    width: 95%;
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+                }
             }
 
             .four{
                 width: 23%;
+                img{
+                    transition:transform .8s ease-in-out;
+                    width: 95%;
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+                }
             }
 
             .top-right{
@@ -1750,15 +1774,15 @@ footer{
         .right{
             position: absolute;
             top:56%;
-            left: 0;
-            width: 50px;
+            left: 1%;
+            width: 3%;
         }
     
         .left{
             position: absolute;
             top: 56%;
-            right: 0;
-            width: 40px;
+            right: 1%;
+            width: 3%;
         }
     
         #one{
