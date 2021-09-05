@@ -365,12 +365,24 @@ header{
 
             img{
                 margin: 10px auto;
-                width: 100%;
+                width: 80%;
             }
 
             // &:focus{
             //     background-color: rgba(160, 160, 160, 0.583);
             // }
+
+            .shaw{
+                width:50%
+            }
+            .coffi{
+                width: 60%;
+            }
+            .pizza{
+                width: 95%;
+            }
+
+
         }
     }
 
@@ -1002,6 +1014,16 @@ footer{
             img{
                 width: 50%;
             }
+
+            .shaw{
+                width:30%
+            }
+            .coffi{
+                width: 40%;
+            }
+            .pizza{
+                width: 58%;
+            }
         }
     }
 
@@ -1404,8 +1426,18 @@ footer{
         .tab{
             button{
                 img{
-                    width:30%;
-                    margin: 10px auto;
+                    width:35%;
+                    margin: 10px auto 15px;
+                }
+
+                .shaw{
+                    width:21%
+                }
+                .coffi{
+                    width: 29%;
+                }
+                .pizza{
+                    width: 40%;
                 }
             }
             hr{
@@ -1454,6 +1486,7 @@ footer{
     }
     .special{
         position: relative;
+        margin: 0;
         .special-box{
             margin: 0px 10px;
             padding: 20px 0px;
@@ -1507,34 +1540,34 @@ footer{
     .shadows{
         width: 5%;
         padding: 115px 0px;
-        background:linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
-        box-shadow: 0 0 5px 5px rgb(238, 238, 238);
+        box-shadow: 0 0 5px 5px rgb(255 255 255);
+        background:linear-gradient(to right, rgb(255 255 255), rgb(255 255 255));
         opacity: 1;
     }
 
     .right{
         position: absolute;
-        top:27%;
-        left: 0;
-        width: 5%;
+        top:44%;
+        left: 1%;
+        width: 3%;
     }
 
     .left{
         position: absolute;
-        top: 27%;
-        right: 0;
-        width: 5%;
+        top: 44%;
+        right: 1%;
+        width: 3%;
     }
 
     #one{
         position: absolute;
-        top: -5px;
+        top: 9%;
         right: 0;
     }
 
     #two{
         position: absolute;
-        top: -5px;
+        top: 9%;
         left: 0;
     }
 

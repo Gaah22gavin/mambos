@@ -313,7 +313,16 @@ header .menu-toggle.active .three {
 }
 .our-menu .tab button img {
   margin: 10px auto;
-  width: 100%;
+  width: 80%;
+}
+.our-menu .tab button .shaw {
+  width: 50%;
+}
+.our-menu .tab button .coffi {
+  width: 60%;
+}
+.our-menu .tab button .pizza {
+  width: 95%;
 }
 .our-menu .tabcontent ul {
   margin: 10px 0px;
@@ -821,6 +830,15 @@ footer .footer-links hr {
   .our-menu .tab button img {
     width: 50%;
   }
+  .our-menu .tab button .shaw {
+    width: 30%;
+  }
+  .our-menu .tab button .coffi {
+    width: 40%;
+  }
+  .our-menu .tab button .pizza {
+    width: 58%;
+  }
   .our-menu .tabcontent {
     display: flex;
     justify-content: space-between;
@@ -1165,8 +1183,17 @@ footer .footer-links hr {
     padding: 0px 100px;
   }
   .our-menu .tab button img {
-    width: 30%;
-    margin: 10px auto;
+    width: 35%;
+    margin: 10px auto 15px;
+  }
+  .our-menu .tab button .shaw {
+    width: 21%;
+  }
+  .our-menu .tab button .coffi {
+    width: 29%;
+  }
+  .our-menu .tab button .pizza {
+    width: 40%;
   }
   .our-menu .tab hr {
     width: 86%;
@@ -1205,6 +1232,7 @@ footer .footer-links hr {
 
   .special {
     position: relative;
+    margin: 0;
   }
   .special .special-box {
     margin: 0px 10px;
@@ -1249,30 +1277,30 @@ footer .footer-links hr {
   .special .shadows {
     width: 5%;
     padding: 115px 0px;
+    box-shadow: 0 0 5px 5px white;
     background: linear-gradient(to right, white, white);
-    box-shadow: 0 0 5px 5px #eeeeee;
     opacity: 1;
   }
   .special .right {
     position: absolute;
-    top: 27%;
-    left: 0;
-    width: 5%;
+    top: 44%;
+    left: 1%;
+    width: 3%;
   }
   .special .left {
     position: absolute;
-    top: 27%;
-    right: 0;
-    width: 5%;
+    top: 44%;
+    right: 1%;
+    width: 3%;
   }
   .special #one {
     position: absolute;
-    top: -5px;
+    top: 9%;
     right: 0;
   }
   .special #two {
     position: absolute;
-    top: -5px;
+    top: 9%;
     left: 0;
   }
 
