@@ -880,6 +880,9 @@ footer .footer-links hr {
   .Our-Customers .tabbs h4 {
     font-size: 20px;
   }
+  .Our-Customers .divv {
+    padding: 20px 0px;
+  }
   .Our-Customers .tab button {
     border-radius: none;
     background-color: transparent;
@@ -1053,6 +1056,9 @@ footer .footer-links hr {
     margin: 0;
   }
   .banner .box .banner-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 170px 0px;
     padding: 0px -1px;
     width: 50%;
@@ -1311,18 +1317,21 @@ footer .footer-links hr {
     width: 70%;
   }
   .Our-Customers .top-left {
+    display: block;
     position: absolute;
     top: 0;
     left: -20px;
     width: 17%;
   }
   .Our-Customers .bottom-right {
+    display: block;
     position: absolute;
     bottom: -30px;
     right: -50px;
     width: 24%;
   }
   .Our-Customers .bottom-left {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -1386,6 +1395,7 @@ footer .footer-links hr {
   }
   .Craftsmanship .craft .top-right {
     position: absolute;
+    display: block;
     top: -38%;
     left: -60px;
     width: 23%;
