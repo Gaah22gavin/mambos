@@ -96,6 +96,7 @@ $(document).on('ready', function(){
           prevArrow:false,
           autoplaySpeed: 1000,
           speed:2000,
+          dots:false,
         }        
       },
 
@@ -144,10 +145,10 @@ $(document).on('ready', function(){
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay:true,
-    autoplaySpeed: 1000,
-    speed:2000,
-    nextArrow:"#right-two",
-    prevArrow:"#left-two",
+    autoplaySpeed: 2000,
+    // speed:2000,
+    nextArrow:".righttt",
+    prevArrow:".lefttt",
     
 
     responsive:[        
@@ -156,8 +157,7 @@ $(document).on('ready', function(){
         settings:{
           slidesToShow:1,
           slidesToScroll:1,
-          nextArrow:false,
-          prevArrow:false,
+
         }        
       },
 
@@ -166,8 +166,6 @@ $(document).on('ready', function(){
         settings:{
           slidesToShow:1,
           slidesToScroll:1,
-          nextArrow:false,
-          prevArrow:false,
         }
       }
   ]

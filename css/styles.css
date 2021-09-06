@@ -590,12 +590,11 @@ header .menu-toggle.active .three {
   width: 50%;
   margin: 100px auto;
 }
+.Acoustic .slick-slide {
+  margin: 0px 10px;
+}
 .Acoustic .slick-slide img {
   width: 100%;
-}
-.Acoustic .slick-slide {
-  transition: all ease-in-out 0.3s;
-  opacity: 0.2;
 }
 .Acoustic .slick-active {
   opacity: 0.5;
@@ -1290,7 +1289,7 @@ footer .footer-links hr {
   }
   .Our-Customers .tabbs {
     box-sizing: border-box;
-    padding: 0 40px;
+    padding: 0 80px;
   }
   .Our-Customers .tabbs img {
     width: 10%;
@@ -1298,7 +1297,7 @@ footer .footer-links hr {
   .Our-Customers .tabbs p {
     font-size: 16px;
     line-height: 1.5;
-    padding: 0px 20px;
+    padding: 0px 40px;
     margin: 30px 0px;
   }
   .Our-Customers .tabbs h3 {
@@ -1314,7 +1313,7 @@ footer .footer-links hr {
   }
   .Our-Customers .divv {
     margin: 40px auto;
-    width: 70%;
+    width: 60%;
   }
   .Our-Customers .top-left {
     display: block;
@@ -1342,6 +1341,9 @@ footer .footer-links hr {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+  }
+  .Craftsmanship h2 {
+    font-size: 40px;
   }
   .Craftsmanship .craft {
     box-sizing: border-box;
@@ -1403,7 +1405,7 @@ footer .footer-links hr {
 
   .Acoustic {
     margin: 0;
-    padding: 90px 0px;
+    padding: 40px 0px 50px;
     background: url(../img/flash.png);
     background-repeat: no-repeat;
     background-position-x: right;
@@ -1413,7 +1415,7 @@ footer .footer-links hr {
   .Acoustic h2 {
     font-size: 34px;
     text-align: left;
-    width: 55%;
+    width: 66%;
     margin: 20px auto 0px;
   }
   .Acoustic h2:nth-last-child(2) {
@@ -1492,8 +1494,8 @@ footer .footer-links hr {
   }
   footer .ross {
     position: absolute;
-    top: -60px;
-    width: 25%;
+    top: 0px;
+    width: 20%;
   }
   footer .footer-log {
     width: 30%;

@@ -721,18 +721,18 @@ header{
         margin: 100px auto;
     }
 
-    // .slick-slide {
-    //   margin: 0px 10px;
-    // }
+    .slick-slide {
+      margin: 0px 10px;
+    }
 
     .slick-slide img {
       width: 100%;
     }
 
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
+    // .slick-slide {
+    //   transition: all ease-in-out .3s;
+    //   opacity: .2;
+    // }
     
     .slick-active {
       opacity: .5;
@@ -1549,14 +1549,14 @@ footer{
         // padding: 0px 130px;
         .tabbs{
             box-sizing: border-box;
-            padding: 0 40px;
+            padding: 0 80px;
             img{
                 width: 10%;
             }
             p{
                 font-size:16px;
                 line-height: 1.5;
-                padding: 0px 20px;
+                padding: 0px 40px;
                 margin: 30px 0px;
             }
             h3{
@@ -1578,7 +1578,7 @@ footer{
 
         .divv{
             margin: 40px auto;
-            width: 70%;
+            width: 60%;
         }
 
 
@@ -1612,6 +1612,9 @@ footer{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
+        h2{
+            font-size: 40px;
+        }
         .craft{
             box-sizing: border-box;
             margin: 20px 20px;
@@ -1681,7 +1684,7 @@ footer{
     }
     .Acoustic{
         margin: 0;
-        padding: 90px 0px;
+        padding: 40px 0px 50px;
         background: url(../img/flash.png);
         background-repeat: no-repeat;
         background-position-x: right;
@@ -1690,7 +1693,7 @@ footer{
         h2{
             font-size: 34px;
             text-align: left;
-            width: 55%;
+            width: 66%;
             margin: 20px auto 0px;
             &:nth-last-child(2){
                 margin: 40px auto 30px;
@@ -1783,8 +1786,8 @@ footer{
         position: relative;
         .ross{
             position: absolute;
-            top: -60px;
-            width: 25%;
+            top: 0px;
+            width: 20%;
         }
         .footer-log{
             width: 30%;
