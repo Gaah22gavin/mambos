@@ -97,7 +97,7 @@ header.open #menubar {
 }
 header .menu-toggle {
   cursor: pointer;
-  width: 55px;
+  width: 17%;
   z-index: 3;
 }
 header .menu-toggle div {
@@ -426,8 +426,7 @@ header .menu-toggle.active .three {
 }
 
 .Our-Customers {
-  margin: 40px 0px;
-  padding: 40px 0px;
+  padding: 70px 0px 70px;
   text-align: center;
   overflow: hidden;
   background: url("../img/customer.png");
@@ -447,14 +446,14 @@ header .menu-toggle.active .three {
 }
 .Our-Customers .tabbs p {
   font-family: "Montserrat-light";
-  line-height: 1.4;
-  font-size: 13px;
+  line-height: 1.7;
+  font-size: 11px;
   padding: 0px 10px;
   margin: 20px 0px;
 }
 .Our-Customers .tabbs h3 {
   font-family: "Montserrat-regular";
-  font-size: 18px;
+  font-size: 15px;
 }
 .Our-Customers .tabbs h4 {
   font-family: "Montserrat-thin";
@@ -464,6 +463,7 @@ header .menu-toggle.active .three {
 .Our-Customers hr {
   opacity: 0.7;
   background-color: black;
+  opacity: 1;
   width: 90%;
   margin: 20px auto;
 }
@@ -473,9 +473,11 @@ header .menu-toggle.active .three {
 .Our-Customers .tab button {
   border: none;
   border-radius: 50%;
+  background-color: transparent;
 }
 .Our-Customers .tab button img {
-  width: 100%;
+  width: 80%;
+  margin: 0px auto;
 }
 .Our-Customers .divv {
   margin: 30px 20px;
@@ -496,14 +498,15 @@ header .menu-toggle.active .three {
 
 .Craftsmanship {
   text-align: center;
-  margin: 40px 0px;
+  margin: 20px 0px 0px;
 }
 .Craftsmanship h2 {
   font-family: "Montserrat-regular";
   font-size: 18px;
+  margin: 20px 0px;
 }
 .Craftsmanship .craft {
-  margin: 40px 0px;
+  margin: 20px 0px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -560,9 +563,10 @@ header .menu-toggle.active .three {
   margin: 10px 0px;
 }
 .Acoustic h2:nth-last-child(2) {
-  margin: 0px 0px 30px;
+  margin: 0px 0px 60px;
 }
 .Acoustic .box {
+  margin: 40px 0px 20px;
   position: relative;
 }
 .Acoustic .box img {
@@ -577,10 +581,10 @@ header .menu-toggle.active .three {
   left: 12%;
 }
 .Acoustic .right {
-  margin: 15px 10px;
+  margin: 0px 10px;
 }
 .Acoustic .left {
-  margin: 15px 10px;
+  margin: 0px 10px;
 }
 .Acoustic .slider {
   width: 50%;
@@ -660,7 +664,7 @@ footer .footer-links hr {
   background-color: white;
   width: 90%;
   margin: 0px auto;
-  opacity: 1;
+  opacity: 0.6;
 }
 
 @media (min-width: 768px) {
@@ -704,6 +708,7 @@ footer .footer-links hr {
     position: relative;
   }
   .banner .box .banner-img {
+    background-size: contain;
     width: 45%;
     box-sizing: border-box;
     padding: 50px 0px;
@@ -854,7 +859,7 @@ footer .footer-links hr {
   }
 
   .Our-Customers {
-    padding: 40px 0px;
+    padding: 50px 0px;
   }
   .Our-Customers h2 {
     font-size: 42px;
@@ -944,6 +949,9 @@ footer .footer-links hr {
   .Acoustic .left {
     width: 7%;
     margin: 15px 10px;
+  }
+  .Acoustic .slick-slide {
+    margin: 0px 10px;
   }
 
   footer {
