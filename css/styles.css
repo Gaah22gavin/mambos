@@ -78,7 +78,7 @@ header .box-one ul li {
   padding: 0.5rem 1rem;
 }
 header .box-one ul li a {
-  font-family: "Montserrat-regular";
+  font-family: "Montserr6at-Bold";
   color: black;
   font-size: 18px;
   text-decoration: none;
@@ -1035,7 +1035,7 @@ footer .footer-links hr {
   }
   header .box-one ul li a {
     transition: all 0.2s ease-in-out;
-    font-size: 28px;
+    font-size: 32px;
   }
   header .box-one ul li a:hover {
     border-bottom: 3px solid black;

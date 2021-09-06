@@ -94,7 +94,7 @@ header{
             li{
                 padding: .5rem 1rem;
                 a{
-                    font-family: $regular;
+                    font-family: $bold;
                     color: rgb(0, 0, 0);
                     font-size: 18px;
                     text-decoration: none;
@@ -1256,7 +1256,7 @@ footer{
                    padding: 0; 
                     a{
                         transition:all .2s ease-in-out;
-                        font-size: 28px;
+                        font-size: 32px;
                         &:hover{
                             border-bottom: 3px solid black;
                         }
