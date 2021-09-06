@@ -230,6 +230,9 @@ header .menu-toggle.active .three {
 .about .about-wrapper .box img {
   width: 50%;
 }
+.about .about-wrapper .box .truck {
+  width: 45%;
+}
 .about .about-wrapper .box p {
   font-family: "Montserrat-light";
   font-size: 18px;
@@ -445,15 +448,15 @@ header .menu-toggle.active .three {
   margin: 10px 0px;
 }
 .Our-Customers .tabbs p {
-  font-family: "Montserrat-light";
+  font-family: "Montserrat-regular";
   line-height: 1.7;
   font-size: 11px;
   padding: 0px 10px;
   margin: 20px 0px;
 }
 .Our-Customers .tabbs h3 {
-  font-family: "Montserrat-regular";
-  font-size: 15px;
+  font-family: "Montserr6at-Bold";
+  font-size: 16px;
 }
 .Our-Customers .tabbs h4 {
   font-family: "Montserrat-thin";
@@ -573,7 +576,7 @@ header .menu-toggle.active .three {
   width: 100%;
 }
 .Acoustic .box h3 {
-  font-family: "Montserrat-light";
+  font-family: "Montserrat-regular";
   font-size: 20px;
   color: white;
   position: absolute;
@@ -641,7 +644,7 @@ footer .footer-links .links ul li a {
   color: white;
 }
 footer .footer-links .hours {
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 footer .footer-links .hours h2 {
   text-align: center;
@@ -661,7 +664,7 @@ footer .footer-links hr {
   margin: 0px;
   padding: 1px;
   background-color: white;
-  width: 90%;
+  width: 80%;
   margin: 0px auto;
   opacity: 0.6;
 }
@@ -858,7 +861,7 @@ footer .footer-links hr {
   }
 
   .Our-Customers {
-    padding: 50px 0px;
+    padding: 84px 0px;
   }
   .Our-Customers h2 {
     font-size: 42px;
@@ -935,10 +938,11 @@ footer .footer-links hr {
     margin: 15px 0px;
   }
   .Acoustic h2:nth-last-child(2) {
-    margin: 0px 0px 40px;
+    margin: 0px 0px 60px;
   }
   .Acoustic .box img {
-    width: 100%;
+    width: 95%;
+    margin: 0px auto;
   }
   .Acoustic .box h3 {
     font-size: 45px;
@@ -1035,7 +1039,7 @@ footer .footer-links hr {
   }
   header .box-one ul li a {
     transition: all 0.2s ease-in-out;
-    font-size: 32px;
+    font-size: 24px;
   }
   header .box-one ul li a:hover {
     border-bottom: 3px solid black;
@@ -1102,7 +1106,8 @@ footer .footer-links hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0px;
+    margin: 50px 0px;
+    padding: 50px 0px;
   }
   .about .about-heading {
     padding: 30px 50px;
@@ -1126,7 +1131,7 @@ footer .footer-links hr {
     left: -25px;
   }
   .about .about-heading h2 {
-    font-size: 64px;
+    font-size: 60px;
   }
   .about .about-wrapper {
     width: 52%;
@@ -1138,10 +1143,14 @@ footer .footer-links hr {
   }
   .about .about-wrapper .box img {
     width: 30%;
+    margin: 0px 0px;
+  }
+  .about .about-wrapper .box .truck {
+    width: 37%;
   }
   .about .about-wrapper .box p {
-    font-size: 18px;
-    padding: 10px 0px;
+    font-size: 15px;
+    padding: 5px 0px;
   }
   .about .about-wrapper .box:hover {
     background-color: #e6e5e5;
@@ -1157,6 +1166,9 @@ footer .footer-links hr {
     position: relative;
     padding: 0px 100px;
   }
+  .our-menu .tab button {
+    position: relative;
+  }
   .our-menu .tab button img {
     width: 35%;
     margin: 10px auto 15px;
@@ -1171,9 +1183,18 @@ footer .footer-links hr {
     width: 40%;
   }
   .our-menu .tab hr {
-    width: 86%;
-    padding: 0;
+    width: 88%;
+    padding: 1px;
     background-color: black;
+  }
+  .our-menu .tab .arrow {
+    transition: 0.4s ease-in;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 12%;
   }
   .our-menu .tabcontent .loop {
     margin: 0px 70px;
@@ -1202,17 +1223,19 @@ footer .footer-links hr {
     display: block;
     position: absolute;
     width: 9%;
-    left: 0;
+    left: -24px;
     bottom: 5%;
   }
 
   .special {
     position: relative;
     margin: 0;
+    padding: 0;
   }
   .special .special-box {
     margin: 0px 10px;
     padding: 10px 10px;
+    border-radius: 20px;
   }
   .special .special-box .special-text h2 {
     font-size: 18px;
@@ -1229,6 +1252,9 @@ footer .footer-links hr {
   .special .special-box .img img {
     width: 80%;
   }
+  .special .special-box .img .buger {
+    width: 100%;
+  }
   .special .slider {
     width: 100%;
     margin: 100px auto;
@@ -1240,7 +1266,7 @@ footer .footer-links hr {
     transition: all ease-in-out 0.3s;
     opacity: 1;
     width: 359px !important;
-    margin: 0px 20px;
+    margin: 0px 25px;
   }
   .special .slick-active {
     opacity: 1;
@@ -1271,49 +1297,52 @@ footer .footer-links hr {
   }
   .special #one {
     position: absolute;
-    top: 9%;
+    top: -6%;
     right: 0;
   }
   .special #two {
     position: absolute;
-    top: 9%;
+    top: -6%;
     left: 0;
   }
 
   .Our-Customers {
     position: relative;
-    padding: 70px 0px;
+    margin: 50px 0px;
+    padding: 80px 0px;
   }
   .Our-Customers h2 {
-    font-size: 40px;
+    font-size: 36px;
+    margin: 30px 0px 50px;
   }
   .Our-Customers .tabbs {
     box-sizing: border-box;
-    padding: 0 80px;
+    margin: 0px;
+    padding: 0 40px;
   }
   .Our-Customers .tabbs img {
-    width: 10%;
+    width: 14%;
   }
   .Our-Customers .tabbs p {
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 0px 40px;
-    margin: 30px 0px;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 50px;
+    margin: 5px 0px;
   }
   .Our-Customers .tabbs h3 {
     text-align: right;
-    font-size: 22px;
+    font-size: 15px;
   }
   .Our-Customers .tabbs h4 {
     text-align: right;
-    font-size: 16px;
+    font-size: 21px;
   }
   .Our-Customers .tab button img {
     width: 60%;
   }
   .Our-Customers .divv {
-    margin: 40px auto;
-    width: 60%;
+    margin: 0px auto;
+    width: 55%;
   }
   .Our-Customers .top-left {
     display: block;
@@ -1332,9 +1361,9 @@ footer .footer-links hr {
   .Our-Customers .bottom-left {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 17%;
+    top: -123px;
+    right: -83px;
+    width: 34%;
   }
 
   .Craftsmanship {
@@ -1343,11 +1372,11 @@ footer .footer-links hr {
     position: relative;
   }
   .Craftsmanship h2 {
-    font-size: 40px;
+    font-size: 36px;
   }
   .Craftsmanship .craft {
     box-sizing: border-box;
-    margin: 20px 20px;
+    margin: 10px 20px;
     justify-content: space-around;
   }
   .Craftsmanship .craft img {
@@ -1398,28 +1427,30 @@ footer .footer-links hr {
   .Craftsmanship .craft .top-right {
     position: absolute;
     display: block;
-    top: -38%;
-    left: -60px;
-    width: 23%;
+    top: -47%;
+    left: -36px;
+    width: 27%;
   }
 
   .Acoustic {
     margin: 0;
-    padding: 40px 0px 50px;
+    padding: 40px 0px 80px;
     background: url(../img/flash.png);
     background-repeat: no-repeat;
     background-position-x: right;
+    background-position-y: -20px;
     background-size: contain;
     position: relative;
   }
   .Acoustic h2 {
     font-size: 34px;
     text-align: left;
-    width: 66%;
+    width: 70%;
     margin: 20px auto 0px;
   }
   .Acoustic h2:nth-last-child(2) {
     margin: 40px auto 30px;
+    padding: 0px 20px;
     width: 55%;
   }
   .Acoustic .acco {
@@ -1488,7 +1519,8 @@ footer .footer-links hr {
   footer {
     background-color: none;
     background-repeat: no-repeat;
-    padding: 70px 0px 30px;
+    background-position-x: center;
+    padding: 80px 0px 30px;
     overflow: hidden;
     position: relative;
   }

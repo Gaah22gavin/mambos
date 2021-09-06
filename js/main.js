@@ -15,6 +15,14 @@
       element.innerHTML = "close"; 
   })
 
+    var menuToggle = document.querySelector("#menu-toggle");
+    var activeElements = document.querySelectorAll(".active-element");
+    var toggledMenu = menuToggle.addEventListener("click", function(){
+    for(var activated = 0; activated < activeElements.length; activated++){
+      activeElements[activated].classList.toggle("active");
+    }
+    })
+
 // end here
 
 // =============slick===============
@@ -79,9 +87,9 @@ $(document).on('ready', function(){
   $(".special-slick").slick({
     dots: false,
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay:true,
+    autoplay:false,
     nextArrow:".right",
     prevArrow:".left",
     
@@ -97,6 +105,7 @@ $(document).on('ready', function(){
           autoplaySpeed: 1000,
           speed:2000,
           dots:false,
+          autoplay:true,
         }        
       },
 
@@ -106,7 +115,8 @@ $(document).on('ready', function(){
           dots: false,
           slidesToShow:2,
           slidesToScroll:1,
-          dots: true,
+          autoplay:true,
+          dots: false,
         }
       }
   ]
@@ -239,12 +249,7 @@ function customer(evtt, names) {
 document.getElementById("defaultOOpen").click();
 // end here
 
-
 // ==========================================
-
-
-
-
 var docWidth = document.documentElement.offsetWidth;
 
 [].forEach.call(
@@ -258,19 +263,11 @@ var docWidth = document.documentElement.offsetWidth;
 
 
 
-var menuToggle = document.querySelector("#menu-toggle");
-var activeElements = document.querySelectorAll(".active-element");
-var toggledMenu = menuToggle.addEventListener("click", function(){
-  for(var activated = 0; activated < activeElements.length; activated++){
-      activeElements[activated].classList.toggle("active");
-  }
-})
 
 
-const slider= document.querySelector(".indicator img");
-const menu_btns = document.querySelectorAll(".menu-btn")
 
-
+const slider= document.querySelector("button .arrow");
+const menu_btns = document.querySelectorAll(".tablinks")
 
 for (let i = 0; i < menu_btns.length; i++) {
     menu_btns[i].addEventListener('click',e=>{
