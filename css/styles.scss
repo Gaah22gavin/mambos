@@ -1238,11 +1238,13 @@ footer{
             ul{
                 padding: 0;
                 li{
+
                     a{
                         transition:all .5s ease-in-out;
                         &:hover{
                             border-bottom: 3px solid black;
                         }
+
                     }
                 }
             }
@@ -1745,7 +1747,8 @@ footer{
     footer{
         background-color:none;
         background-repeat:no-repeat ;
-        background-size:cover;
+        // background-position-x: center;
+        // background-size:cover;
         padding: 70px 0px 30px;
         overflow: hidden;
         position: relative;
