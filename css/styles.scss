@@ -1227,20 +1227,22 @@ footer{
 @media(min-width:1280px){
     header{
         background-color: transparent;
-        padding: 0px 40px;
+        padding: 30px 50px;
         align-items: center;
         img{
-            width: 15%;
+            width: 16%;
         }
         .box-one{
             width: 60%;
             display: block;
             ul{
+                justify-content: space-between;
                 padding: 0;
                 li{
-
+                   padding: 0; 
                     a{
-                        transition:all .5s ease-in-out;
+                        transition:all .2s ease-in-out;
+                        font-size: 28px;
                         &:hover{
                             border-bottom: 3px solid black;
                         }
@@ -1274,17 +1276,19 @@ footer{
             .banner-content{
                 padding: 0px 30px;
                 h1{
-                    font-size: 40px;
-                    margin: 15px 0px;
+                    font-size: 42px;
+                    margin: 25px 0px;
                     &:nth-last-child(2){
-                        margin: 0px 0px 50px;
+                        margin: 0px 0px 70px;
                     }
                     span{
                         border-bottom: 3px solid #ffb820;
                     }
                 }
                 a{
+                    margin: 0px 20px;
                     font-size: 25px;
+                    padding: .8rem 2.5rem;
                 }
             }
         }
@@ -1297,16 +1301,20 @@ footer{
 
         .nxt{
             top: 90%;
+            // right: 25%;
+            right: 19%;
         }
 
         .prv{
             top: 90%;
+            // right: 19%;
+            right: 25%;
         }
     }
     .about{
         position: relative;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         margin: 40px 0px;
         .about-heading{
@@ -1319,8 +1327,8 @@ footer{
             text-align: left;
             width:40%;
             img{
-                width: 20%;
-                margin: 8px 0px;
+                width: 30%;
+                margin: 8px -24px;
             }
 
             .reed{
@@ -1330,20 +1338,23 @@ footer{
                 bottom: -55px;
                 left: -25px;
             }
-            h1{
-                font-size: 45px;
+            h2{
+                font-size: 64px;
             }
         }
 
         .about-wrapper{
             width: 52%;
+            box-sizing: border-box;
+            margin: 0px 20px 0px 20px;
 
             .box{
                 img{
                     width: 30%;
                 }
                 p{
-                    font-size: 16px;
+                    font-size: 18px;
+                    padding: 10px 0px;
                 }
                 transition: all .3s ease-in-out;
                 &:hover{
@@ -1381,7 +1392,7 @@ footer{
             }
             hr{
                 width: 86%;
-                padding: 1px;
+                padding: 0;
                 background-color: black;
             }
         }
@@ -1401,6 +1412,7 @@ footer{
 
                         hr{
                             background-color: black;
+                            padding: 0px;
                         }
                     }
                 }
@@ -1410,20 +1422,19 @@ footer{
         .rightt{
             display: block;
             position: absolute;
-            width: 10%;
-            right: 2%;
+            width: 9%;
+            right: -19px;
             top: 23%;
         }
     
         .leftt{
             display: block;
             position: absolute;
-            width: 10%;
+            width: 9%;
             left: 0;
             bottom:5%;
         }
     }
-
  // ===============================
 
 // ===============================
@@ -1432,24 +1443,24 @@ footer{
         margin: 0;
         .special-box{
             margin: 0px 10px;
-            padding: 20px 0px;
+            padding: 10px 10px;
             .special-text{
                 h2{
-                    font-size: 15px;
+                    font-size: 18px;
                 }
 
                 p{
-                    font-size: 15px;
+                    font-size: 17px;
                 }
                 h3{
-                    font-size: 15px;
+                    font-size: 17px;
                 }
             }
 
             .img{
-                width: 50%;
+                width: 60%;
                 img{
-                    width: 70%;
+                    width: 80%;
                 }
             }
         
