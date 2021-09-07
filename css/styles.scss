@@ -688,8 +688,8 @@ header{
         font-family: $regular;
         font-size: 18px;
         margin: 10px 0px;
-        &:nth-last-child(2){
-            margin: 0px 0px 60px;
+        &:nth-child(2){
+            margin: 0px 0px 30px;
         }
     }
 
@@ -710,11 +710,11 @@ header{
     }
 
     .right{
-        margin: 0px 10px;
+        margin: 16px 6px;
     }
 
     .left{
-        margin:0px 10px;
+        margin:16px 6px;
     }
 
 
@@ -1142,7 +1142,7 @@ footer{
             font-size: 36px;
             margin: 15px 0px;
             &:nth-last-child(2){
-                margin: 0px 0px 60px;
+                margin: 0px 0px 40px;
             }
         }
 

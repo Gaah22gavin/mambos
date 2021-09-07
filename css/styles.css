@@ -565,8 +565,8 @@ header .menu-toggle.active .three {
   font-size: 18px;
   margin: 10px 0px;
 }
-.Acoustic h2:nth-last-child(2) {
-  margin: 0px 0px 60px;
+.Acoustic h2:nth-child(2) {
+  margin: 0px 0px 30px;
 }
 .Acoustic .box {
   margin: 40px 0px 20px;
@@ -584,10 +584,10 @@ header .menu-toggle.active .three {
   left: 12%;
 }
 .Acoustic .right {
-  margin: 0px 10px;
+  margin: 16px 6px;
 }
 .Acoustic .left {
-  margin: 0px 10px;
+  margin: 16px 6px;
 }
 .Acoustic .slider {
   width: 50%;
@@ -938,7 +938,7 @@ footer .footer-links hr {
     margin: 15px 0px;
   }
   .Acoustic h2:nth-last-child(2) {
-    margin: 0px 0px 60px;
+    margin: 0px 0px 40px;
   }
   .Acoustic .box img {
     width: 95%;
