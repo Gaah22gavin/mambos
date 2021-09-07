@@ -937,7 +937,7 @@ footer .footer-links hr {
     font-size: 36px;
     margin: 15px 0px;
   }
-  .Acoustic h2:nth-last-child(2) {
+  .Acoustic h2:nth-child(2) {
     margin: 0px 0px 40px;
   }
   .Acoustic .box img {
@@ -1446,12 +1446,12 @@ footer .footer-links hr {
     font-size: 34px;
     text-align: left;
     width: 70%;
-    margin: 20px auto 0px;
+    margin: 10px auto 0px;
   }
-  .Acoustic h2:nth-last-child(2) {
-    margin: 40px auto 30px;
+  .Acoustic h2:nth-child(2) {
+    margin: 22px auto 30px;
     padding: 0px 20px;
-    width: 55%;
+    width: 69%;
   }
   .Acoustic .acco {
     margin: 40px 0px 0px;
@@ -1505,12 +1505,12 @@ footer .footer-links hr {
   }
   .Acoustic #one {
     position: absolute;
-    top: 34%;
+    top: 26%;
     right: 0;
   }
   .Acoustic #two {
     position: absolute;
-    top: 34%;
+    top: 26%;
     left: 0;
     box-shadow: 0 0 5px 5px white;
     background: linear-gradient(to right, white, white);

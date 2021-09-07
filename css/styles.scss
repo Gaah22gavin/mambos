@@ -1141,7 +1141,7 @@ footer{
         h2{
             font-size: 36px;
             margin: 15px 0px;
-            &:nth-last-child(2){
+            &:nth-child(2){
                 margin: 0px 0px 40px;
             }
         }
@@ -1728,12 +1728,12 @@ footer{
             font-size: 34px;
             text-align: left;
             width: 70%;
-            margin: 20px auto 0px;
-            &:nth-last-child(2){
-                margin: 40px auto 30px;
+            margin: 10px auto 0px;
+            &:nth-child(2){
+                margin: 22px auto 30px;
                 padding: 0px 20px;
-                width: 55%;
-            }    
+                width: 69%;
+            }
         }
 
         .acco{
@@ -1799,13 +1799,13 @@ footer{
     
         #one{
             position: absolute;
-            top: 34%;
+            top: 26%;
             right: 0;
         }
     
         #two{
             position: absolute;
-            top: 34%;
+            top: 26%;
             left: 0;
             box-shadow: 0 0 5px 5px rgb(255 255 255);
             background:linear-gradient(to right, rgb(255 255 255), rgb(255 255 255));
