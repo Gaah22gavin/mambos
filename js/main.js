@@ -263,23 +263,3 @@ var docWidth = document.documentElement.offsetWidth;
 
 
 
-
-
-
-const slider= document.querySelector("button .arrow");
-const menu_btns = document.querySelectorAll(".tablinks")
-
-for (let i = 0; i < menu_btns.length; i++) {
-    menu_btns[i].addEventListener('click',e=>{
-      let bd = document.querySelector("body")
-      let xPos = 0
-      if (bd.offsetWidth >768) {
-        xPos = menu_btns[i].offsetLeft + (menu_btns[i].offsetWidth/2)
-      } else{
-        xPos = e.x 
-      }
-      slider.style.left = xPos + "px"
-    });
-  }
-
-
